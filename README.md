@@ -11,12 +11,14 @@
 
 
 # Desarrollo 
+
+ 
+
+Actividad 1
  Generar un programa que realice lo siguiente:
 •	Que pida el ingreso de un valor (edad)
 •	Que determine si es mayor de edad o menor de edad
 •	Que lo muestre en pantalla con su respectivo enunciado, si es mayor de edad o no
- 
-Imagen 1.1 captura de pantalla en GBD online donde nos muestra el código corriendo sin errores de copilacion.
 ```c++
 #include <iostream>  
 int main()
@@ -32,6 +34,30 @@ int main()
     return 0;
 }
 ```
+Actividad 2
+Generar un programa que realice lo siguiente:
+Que pida el ingreso de dos valores (ya sean enteros o decimales).
+Que los sume, reste, multiplique y divida.
+```c++
+#include <iostream>
+int main() {
+    double num1 = 0.0, num2 = 0.0;
+    std::cout << "Escribe el primer número: ";
+    std::cin >> num1;
+    std::cout << "Escribe el segundo número: ";
+    std::cin >> num2;
+    std::cout << "La suma es: " << num1 + num2 << std::endl;
+    std::cout << "La resta es: " << num1 - num2 << std::endl;
+    std::cout << "La multiplicación es: " << num1 * num2 << std::endl;
+    if (num2 != 0) {
+        std::cout << "La división es: " << num1 / num2 << std::endl;
+    } else {
+        std::cout << "error" << std::endl;
+    }
+    return 0;
+```
+}
+
 # Conclucion
  Este proyecto no tuvo dificultades es muy interesante C++ y creo que puede ser uno de mis lenguajes favoritos para programar lógica, y tener un panorama más amplio de los lenguajes de programación en lo personal hasta el momento no lo siento tan complicado es orientado a objetos utiliza métodos y creo yo que es uno de los lenguajes que hemos estado infravalorando más en la industria sin embargo verlo en esta área de aprendizaje de hace muy alegre ya que no había tenido la oportunidad de encontrarme con el frente a frente y me hizo muy interesante para volver a hacer problemas sencillos pero en lenguajes que no manejo, en cuestión de sacar dudas internet ya resolvió varias dudas desde hace muchos años y es muy difícil que te tropieces con algo que alguien mas no se haya topado con eso antes por lo que se puede aprender mucho de este lenguaje.
 
