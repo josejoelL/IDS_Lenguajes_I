@@ -9,11 +9,11 @@
  <br>
 # Justificacion
  Me siento cómodo utilizando el Online GBD ya que lo copila de manera virtual sin necesidad de instalación, pero lo mejor sería utilizar un IDE ya que esos nos pueden ayudar mejor en posibles errores al instante como lo puede ser una falta de un ; en un texto y en una copilacion por partes que puede mejorar en depurar y en probar errores de una mejor manera yo no lo hice así porque justifico mi manera de hacerlo de esa forma si yo use el printf y no el que ya viene en el iostream es porque siento que es más entendible a la vista lo que está queriendo hacer el ejercicio y más fácil de leer, considero que esos espacios se pudieran mejorar para dejar un condigo más limpio. 
-
+<br>
 
 # Desarrollo 
 
- <br>
+
 
 Actividad 1
  Generar un programa que realice lo siguiente:
@@ -21,6 +21,7 @@ Actividad 1
 •	Que determine si es mayor de edad o menor de edad
 •	Que lo muestre en pantalla con su respectivo enunciado, si es mayor de edad o no
 <br>
+
 ```c++
 #include <iostream>  
 int main()
@@ -36,12 +37,13 @@ int main()
     return 0;
 }
 ```
-<br>
+
 Actividad 2
 Generar un programa que realice lo siguiente:
 Que pida el ingreso de dos valores (ya sean enteros o decimales).
 Que los sume, reste, multiplique y divida.
 <br>
+
 ```c++
 #include <iostream>
 int main() {
@@ -61,13 +63,14 @@ int main() {
     return 0;
 ```
 }
-<br>
+
 
 Actividad 3
 crear un programa que permita calcular el RFC
 Este debe generarse a partir de la captura de nombre, apellido
 paterno, apellido materno y fecha de nacimiento.
 <br>
+
 ```c++
 #include <iostream>
 #include <string>
@@ -121,9 +124,12 @@ int main() {
 }
 ```
 <br>
+
 # Conclusión
  Este proyecto no tuvo dificultades es muy interesante C++ y creo que puede ser uno de mis lenguajes favoritos para programar lógica, y tener un panorama más amplio de los lenguajes de programación en lo personal hasta el momento no lo siento tan complicado es orientado a objetos utiliza métodos y creo yo que es uno de los lenguajes que hemos estado infravalorando más en la industria sin embargo verlo en esta área de aprendizaje de hace muy alegre ya que no había tenido la oportunidad de encontrarme con el frente a frente y me hizo muy interesante para volver a hacer problemas sencillos pero en lenguajes que no manejo, en cuestión de sacar dudas internet ya resolvió varias dudas desde hace muchos años y es muy difícil que te tropieces con algo que alguien mas no se haya topado con eso antes por lo que se puede aprender mucho de este lenguaje.
+
 <br>
+
 # Referencias
 ### Ivor Horton 2018 AI Beginning C++17: From Novice to Professional [Libro] 5ta edicion Apress
 ### Robert Lafore 2002  Object-Oriented Programming in C++ [Libro] 3ta edicion Sams Publishing 
