@@ -20,23 +20,23 @@ std::string calcularRFC(const std::string& nombre, const std::string& apellidoPa
     // Se obtiene la inicial del primer nombre o se usa una 'X' si no hay
     char inicialNombre = nombre[0];
     // Se obtienen los dos últimos dígitos del año de nacimiento
-    std::string anio = fechaNacimiento.substr(2, 2);
+    std::string YY = fechaNacimiento.substr(2, 2);
     // Se obtienen el mes y el día de nacimiento
-    std::string mes = fechaNacimiento.substr(5, 2);
-    std::string dia = fechaNacimiento.substr(8, 2);
+    std::string MM = fechaNacimiento.substr(5, 2);
+    std::string DD = fechaNacimiento.substr(8, 2);
     // Se construye el RFC
     rfc = letraInicial;
     rfc += primeraVocalInterna;
     rfc += inicialApellidoMaterno;
     rfc += inicialNombre;
-    rfc += anio;
-    rfc += mes;
-    rfc += dia;
+    rfc += YY;
+    rfc += MM;
+    rfc += DD;
     return rfc;
 }
 int main() {
     std::string nombre, apellidoPaterno, apellidoMaterno, fechaNacimiento;
-    std::cout << "Ingrese el nombre: ";
+    std::cout << "Ingrese el nombre en (letras mayusculas) :";
     std::getline(std::cin, nombre);
     std::cout << "Ingrese el apellido paterno: ";
     std::getline(std::cin, apellidoPaterno);
@@ -45,6 +45,6 @@ int main() {
     std::cout << "Ingrese la fecha de nacimiento (YYYY-MM-DD): ";
     std::getline(std::cin, fechaNacimiento);
     std::string rfc = calcularRFC(nombre, apellidoPaterno, apellidoMaterno, fechaNacimiento);
-    std::cout << "RFC: " << rfc << std::endl;
+    std::cout << "RFC(sin homoclave) : " << rfc << std::endl;
     return 0;
 }
